@@ -38,5 +38,13 @@ const imagesArr = images
 
 galleryList.insertAdjacentHTML('beforeend', imagesArr);
 
-images.style.display = flex;
-images.style.flexwrap = nowrap;
+// Не спрацьовує - тому додав у common
+//
+// galleryList.style.display = 'flex';
+// galleryList.style.flexWrap = 'wrap';
+// galleryList.style.gap = '48px 24px';
+// galleryList.style.padding = '0';
+// galleryList.style.justifyContent = 'center';
+// galleryList.style.listStyleType = 'none';
+// galleryList.style.width = '320px';
+// galleryList.style.height = 'auto';
